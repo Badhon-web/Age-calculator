@@ -1,0 +1,77 @@
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #003366;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.calculator-box {
+  background-color: white;
+  padding: 25px 40px;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #004080;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#ageResult {
+  min-width: 120px;
+  border: 2px solid #007bff;
+  padding: 10px;
+  font-size: 18px;
+  color: #003366;
+  border-radius: 6px;
+  font-weight: bold;
+  user-select: none;
+}
